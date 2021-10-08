@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='pt-br' prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset=utf-8 />
+        <title>Formulário</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+        <meta property="og:title" content="Formulário Satisfação" />
+        <meta property="og:type" content="image/jpeg" />
+        <meta property="og:url" content="https://ricardofmc90.github.io/" />
+        <meta property="og:image" content='https://blocktrends.com.br/wp-content/uploads/2021/06/alpha-edtech.jpg.webp' />
+        <meta property='og:image:height' content=300px />
+        <meta property='og:image:width' content=400px />
+        <meta property='og:image:alt' content='Imagem da Alpha Edtech' />
+        <meta property='og:description' content='Formulário de Satisfação' />
+    </head>
+    <body>
+        <header>
+            <img src=alpha.jpeg height=100px width=500px />
+        </header>
+        <main>
+            <form action=# method=POST>
+                <h1>Formulário de Satisfação</h1>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for=nome>Nome:</label>
+                    <input type=text name=nome id=nome />
+                    <br><br>
+                    <label for=cpf>CPF:</label>
+                    <input type=number name=cpf id=cpf />
+                    <label for=email>E-mail:</label>
+                    <input type=email name=email id=email />
+                    <br><br>
+                    <label for=dataNasc>Data de Nascimento:</label>
+                    <input type=date name=dataNasc id=dataNasc />
+                    <input type=radio name=genero id=masc/>
+                    <label for=masc>Masculino</label>
+                    <input type=radio name=genero id=fem />
+                    <label for=fem>Feminino</label>
+                    <br><br>
+                    <label for=areaGrad>Área de Graduação:</label>
+                    <input type=text name=area id=areaGrad />
+                    <label for=cursoGrad>Curso de Graduação:</label>
+                    <input type=text name=curso id=cursoGrad />
+                    <br><br>
+                    <label for=matricula>Matrícula:</label>
+                    <input type=number name=matricula id=matricula />
+                </fieldset>
+                <fieldset>
+                    <legend>Pesquisa de Satisfação</legend>
+                    <p>O quão satisfeito você está com o andamento do curso:</p>
+                    <input type=radio name=satisfacao id=mt />
+                    <label for=mt>Muito Satisfeito</label>
+                    <br>
+                    <input type=radio name=satisfacao id=sat />
+                    <label for=sat>Satisfeito</label>
+                    <br>
+                    <input type=radio name=satisfacao id=ins />
+                    <label for=ins>Insatisfeito</label>
+                    <p>Como conheceu a Alpha?</p>
+                    <input type=checkbox name=internet id=internet />
+                    <label for=internet>Internet</label>
+                    <br>
+                    <input type=checkbox name=indicacao id=indicacao />
+                    <label for=indicacao>Indicação</label>
+                    <br>
+                    <input type=checkbox name=outro id=outro />
+                    <label for=outro>Outro</label>
+                    <p>De 1 a 10 qual é a probabilidade de você indicar o Alpha?</p>
+                    <input type=range name=range min=1 max=10 id=send oninput='result.value=send.value' />
+                    <input type=text id=result />
+                </fieldset>
+            </form>
+        </main>
+        <br>
+        <footer>
+            <button type=submit>Enviar respostas</button>
+            <button type=reset>Limpar formulário</button>
+            <button type=button>JS</button>
+        </footer>
+    </body>
+</html>
