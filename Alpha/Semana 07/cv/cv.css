@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    /* height: max-content; */
+}
+
+/* body {
+
+    height: max-content;
+} */
+
+/* main {
+    height: 100%;
+    width: 100%;
+} */
+
+li {
+    font-size: 1.5rem;
+}
+
+h5, h6 {
+    font-size: 1.3rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    /* height: 50px; */
+    /* height: 1%; */
+    height: 4vh;
+    width: 100vw;
+    /* width: 100%;*/
+    background-color: rgb(51,59,80);
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+header a {
+    margin: 0 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header a:hover {
+    transform: scale(1.05);
+    border-bottom: 2px solid whitesmoke;
+}
+
+/* h1 {
+    
+} */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(51,59,80);
+    font-size: 1.5rem;
+    color: rgba(0,0,0,0.6);
+}
+
+footer span {
+    margin: 0 50px;
+    color: whitesmoke;
+}

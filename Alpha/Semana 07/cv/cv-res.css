@@ -1,0 +1,81 @@
+.res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 700px; */
+    /* height: calc(125%); */
+    /* height: 100vh; */
+    /* height: 50%; */
+    /* height: max-content; */
+    /* padding: 200px 0; */
+    /* background-image: url(snow-pres.jpg); */
+    background-image: url(snow-pres-gray.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.res-sq {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* justify-content: space-around;
+    align-items: center; */
+    flex-direction: column; 
+    align-items: center; 
+    /* justify-content: space-around; */
+    /* margin: 20%; */
+    width: 55%;
+    /* height: 550px; */
+    /* height: calc(1125% * max-content); */
+    /* height: 50vh; */
+    /* height: 70%; */
+    margin: 10vh 0;
+    /* height: 50vh; */
+    height: max-content; /* talvez nem seja necessário */
+    /* padding: 5vh 0; */
+    border: 1px outset black;
+    border-radius: 2em;
+    background-color: rgba(51,59,80, 0.6);
+    box-shadow: 8px 8px 2px 1px rgba(51, 59, 80, .2);
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+/* posso usar o magin para centralizar o sq na img, mas nao descobri como escolho o height da img sem usar px; */
+
+.res-sq h1 {
+    /* margin: 0px 0px; */
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.res-sq h1, p, input {
+    margin: 2vh 4vw;
+}
+
+/* .fs-text { */
+    /* width: 80%; */
+    /* margin-top: 0px; */
+/* } */
+
+.fs-text p {
+    /* margin: 30px 0; */
+    /* margin: 0 2vw; */
+    font-size: 1.8rem;
+}
+
+#btn-down {
+    width: 150px;
+    height: 40px;
+    /* margin: 20px; */
+    border: 1px solid rgb(0,200,0);
+    background-color: rgba(51,59,80, 0.6);
+    color: whitesmoke;
+}
+
+#btn-down:hover{
+    transform: scale(1.05);
+    background-color: rgb(0,200,0);
+}
