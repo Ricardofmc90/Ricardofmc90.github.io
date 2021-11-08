@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('myfont.woff') format('woff');
+  }
+
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    /* font-family: 'Tw Cen MT Condensed'; */
+    font-family: 'MyFont';
+    /* font-family: 'Bahnschrift Condensed'; */
+    font-weight: lighter;
+    /* font-family: 'Bahnschrift Light Condensed'; */
+    /* font-family: 'Agency FB'; */
+    /* font-family: 'Arial Narrow'; */
+}
+
+/* .2-secs {
+    display: flex;
+    flex-direction: column;
+} */
+
+header {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* margin-top: 200px; */
+    height: 65vh;
+    background-image: url(forest.png);
+    background-size: cover;
+    font-weight:bolder;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.5vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);    
+}
+
+#menu {
+    margin-right: 4vw;
+}
+
+#menu a {
+    /* display: flex;
+    justify-content: space-around;
+    width: 100%; */
+    margin: 0 2vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #A29C9C;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: whitesmoke;
+}
+
+h1 a {
+    margin-left: 4vw;
+    color: #EEE6E6;
+    text-decoration: none;
+}
+
+h1 a::first-letter {
+    /* color: #A29C9C; */
+    color: black;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 20vh 27vw;
+    width: 50%;
+    /* font-size: 9rem;*/
+    font-size: 96px;
+    letter-spacing: 0.05em;
+    color: whitesmoke;
+}
+
+.plan :first-child {
+    padding-left: 8vw;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+.both-sec {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    /* height: fit-content; */
+    /* border: 5px solid black; */
+}
+
+.lanc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 64.5vh; */
+    width: 50%;
+    background-color: black;
+    color: white;
+    /* font-size: 5rem; */
+    font-size: 60px;
+}
+
+.lanc a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-size: 3rem; */
+    font-size: 24px;
+    color: white;
+}
+
+.lanc a:hover {
+    color: #A29C9C;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* .t-img {
+    width: 100%;
+    margin: -4px;
+    padding: 0;
+} */
+
+
+.t-img2 {
+    display: flex;
+    /* height: 300px; */
+    /* height: 100%; */
+    height: 50vh;
+    width: 100%;
+    /* border: 3px solid blue; */
+    /* text-align: center; */
+}
+
+.t-img2 figure :first-child {
+    height: 50vh;
+    width: 100%;
+    /* border: 3px solid black; */
+}
+
+/* .t-img2 a { */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* column-gap: 0; */
+    /* border: 3px solid black; */
+/* } */
+
+/* .t-img2 img { */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* column-gap: 0; */
+    /* border: 3px solid black; */
+/* } */
+
+/* .t-img2 figure > a { */
+    /* margin: 0; */
+    /* object-fit: cover; */
+    /* border: 3px solid black; */
+    /* column-gap: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* column-gap: 0; */
+/* } */
+
+.t-img2 a + a {
+    position: absolute;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: transparent;
+    
+}
+
+.t-img2 figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    /* border: 3px solid blue; */
+    /* height: 300px; */
+    /* object-fit: fill; */
+    /* column-gap: 0; */
+}
+
+
+/* .t-img2 a img {
+    min-height: auto;
+    width: 520px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.t-img2 figure :hover {
+    filter: brightness(50%);
+    color: white;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.liquid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 90vh; */
+    background-color: black;
+    /* border: 3px solid blue; */
+}
+
+.liquidacao {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0 5vh 0;
+    color: white;
+    /* font-size: 3rem; */
+    font-size: 67px;
+    letter-spacing: 0.1em;
+}
+
+.liquidacao p + p {
+    /* font-size: 2rem; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+
+.liquid-bags {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+
+.liquid-bags figure > article {
+    width: fit-content;
+    align-self: center;
+    /* border: 1px solid white; */
+}
+
+.liquid-bags figure {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid white; */
+}
+
+.liquid-bags figure > a {
+    align-self: center;
+    text-decoration: none;
+    font-size: 31px;
+    color: white;
+}
+
+.price {
+    margin-top: 2vh;
+}
+
+.price a {
+    /* column-gap: 10px; */
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.price :first-child {
+    margin-right: 20px;
+    text-decoration: line-through;
+}
+
+.gray-sq {
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    font-size: 31px;
+    color: transparent;
+}
+
+.gray-sq span {
+    /* height: fit-content; */
+    align-self: center;
+    /* border: 1px solid black; */
+}
+
+.liquid-bags figure:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* -----------------------------------------------------------QUEM SOMOS--------------------------------------------------------------------------- */
+
+.somos { /* retangulo maior com a img de fundo */
+    height: 60vh;
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+.somos-text { /* retangulo opaco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.somos-text span { /* titulo texto */
+    width: 20vw;
+    margin: 30vh 0 0 20vw;
+    font-size: 60px;
+    letter-spacing: 0.05em;
+    /* border: 1px solid white; */
+}
+
+
+.somos-text p { /* corpo texto */
+    width: 20vw;
+    margin-left: 20vw;
+    font-size: 22px;
+    
+}
+
+/* -----------------------------------------------------CONTATO-------------------------------------------------------------------------------- */
+
+.contato-ret { /* retangulo contato */
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+
+.contato-form { /* retangulo form */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.cont-form { /* form */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cont-form input { /* inputs do form */
+    height: 2em;
+    margin: 0.3vh 0;
+    padding: 5px 0px 5px 20px;
+    font-size: 18px;;
+    color: gray;
+}
+
+#cont-inp-msg { /* input msg */
+    display: flex;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+#cont-btn {
+    align-self: flex-end;
+    height: 4vh;
+    width: 7vw;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.contato-text { /* retangulo text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 10vw;
+    font-size: 22px;
+    color: white;
+}
+
+.contato-text :first-child { /* primeiro text */
+    letter-spacing: 0.2em;
+    font-size: 60px;
+}
+
+.contato-text p { /* paragrafo */
+    width: 40%;
+    margin-bottom: 2vh;
+    letter-spacing: 0.05em;
+}
+
+/* ------------------------------------------------------ASSINE-------------------------------------------------------------------------------- */
+
+.assine { /* retângulo do assine nossa lista */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(20,20,20);
+    color: #EEE6E6;
+
+}
+
+.ass-text { /* retângulo contendo os textos */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.ass-text span { /* todos os textos */
+    align-self: center;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+}
+
+.ass-text span + span { /* apenas o segundo texto */
+    align-self: center;
+    margin-bottom: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.05em;
+    font-size: 24px;
+}
+
+.email-ass { /* email e botao */
+    margin-top: 2vh;
+}
+
+#inp-email { /* input do email */
+    width: 30vw;
+    padding: 10px;
+    color: gray;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;;
+}
+
+#btn-ass { /* botão participar */
+    margin-left: 0.5vw;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+}
+
+/* ------------------------------------------------------FOOTER-------------------------------------------------------------------------------- */
+
+footer { /* retângulo footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+    width: 100%;
+    background-color: rgb(26,25,25);
+}
+
+.foot { /* retângulo contendo os textos */
+    display: flex;
+    flex-direction: column;
+}
+
+footer span { /* todas as linhas de texto */
+    align-self: center;
+    /* width: fit-content; */ /*por que aqui não funcionou junto com o justify-content do .foot para centralzá-lo? */
+    font-size: 18px;
+    color: #a29c9c;
+    /* border: 1px solid white; */
+}
+
+footer a { /* link underlined */
+    color: #a29c9c;
+}
+
+.foot :first-child { /* primeira frase, com o link */
+    margin-bottom: 2vh;
+}
+
