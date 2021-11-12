@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Lato-thin';
+    src: url(Lato-Thin.woff);
+}
+
+html {
+    background-color: #000;
+    font-family: 'Lato-thin';
+}
+
+a:hover {
+    color: rgb(117,201,173);
+}
+
+a {
+    margin: 0 0 0 2vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh 0 0 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;  
+}
+
+main {
+    margin: 7vh 22vw 7vh 22vw;
+}
+
+section {
+    margin: 7vh 0 0 0;
+}
+
+img {
+    height: ;
+    width: ;
+}
