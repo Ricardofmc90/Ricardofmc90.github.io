@@ -1,0 +1,171 @@
+* {
+    margin: 0
+}
+
+@font-face {
+    font-family: 'Linkin Park';
+    src: url('/assets/fonts/linkinpark.ttf');
+}
+
+html {
+    font-family: 'Linkin Park';
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    margin: 0 0 0px 0;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+/* =============================================================BACKGROUND=============================================================================== */
+
+.back-band {
+    flex-direction: column;
+    height: 1000px;
+    /* width: 1000px; */
+    background-image: url('assets/images/lp-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* z-index: 999999; */
+}
+
+.center-square {
+    border: 10px solid white;
+    height: 70%;
+    width: 70%;
+}
+
+h1 {
+    margin: 30vh 0vw 0 0vw;
+    font-size: 70px;
+    stroke: black;
+    color: black;
+}
+
+/* =============================================================PARAGRAPH=============================================================================== */
+
+p {
+    align-self: center;
+    justify-self: center;
+    width: 40%;
+    font-size: 20px;
+}
+
+/* =============================================================DISCO=============================================================================== */
+
+/* como fazer para que ele inicie no início da segunda linha */
+
+.discografia {
+    flex-direction: column;
+    gap: 100px 0px;
+    margin: 100px 0 0 0;
+    /* justify-content: space-around; */
+    /* height: 500px; */
+}
+
+.figures {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;;
+    gap: 30px 30px;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* =============================================================PLAYLIST=============================================================================== */
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 0;
+    gap: 100px 0;
+    /* justify-content: space-around; */
+    /* height: 1000px; */
+}
+
+.playlist h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.spot-yout {
+    display: flex;
+}
+
+
+.spotify {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 0px 0px 50px;
+    gap: 20px 0px;
+    /* border: 1px solid black; */
+}
+
+ul {
+    list-style: none;
+    line-height: 50px;
+
+}
+
+li {
+    gap: 200px 200px;
+}
+
+.youtube {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 0px 0px 50px;
+    gap: 20px 0px;
+    /* border: 1px solid black; */
+}
+
+.youtube a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* =============================================================FOOTER=============================================================================== */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    margin: 100px 0 0 0;
+    column-gap: 20px;
+    background-color: gray;
+    font-size: 18px;
+}
