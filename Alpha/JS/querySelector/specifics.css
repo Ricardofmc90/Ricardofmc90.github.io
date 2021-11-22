@@ -1,0 +1,16 @@
+.white-font {
+    color: white;
+}
+
+.just-center-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.just-sa-align-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
